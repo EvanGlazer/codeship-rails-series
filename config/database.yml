@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf8
+  pool: 5
+  database: rails-json-api
+  username: development
+  password: development
+
+development: &default
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf8
+  pool: 5
+  database: rails-json-api-dev
+  username: development
+  password: development
